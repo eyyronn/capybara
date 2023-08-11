@@ -18,7 +18,7 @@
   
   .title {
     font-family: "Proza Libre";
-    font-weight: 500;
+    font-weight: 900;
     font-size: 8vw;
   }
   
@@ -31,6 +31,7 @@
   }
   
   .adjectives button {
+    font-size: 1em;
     color: #fff;
     margin: 10px;
     padding: 5px 10px;
@@ -45,3 +46,40 @@
     transform: scale(1.05);
     opacity: 1;
   }
+
+  .pat-button {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: 800;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ffd900;
+    border-radius: 10px;
+    color: rgb(54, 134, 0);
+    opacity: 1;
+    transition: transform 0.3s ease;
+  }
+  
+  .pat-button:hover {
+    transform: scale(1.1);
+  }
+
+  .peeking-capybara {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(-90deg);
+    width: 150px;
+    height: 150px;
+    background-image: url('capybara.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.3s ease, right 0.3s ease;
+  }
+  
+  .pat-button:hover + .peeking-capybara {
+    opacity: 1;
+  }
+  
+  

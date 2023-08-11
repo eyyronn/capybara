@@ -92,7 +92,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <div className="prompt first">
+      <div id="patSection" className="prompt first">
         <p>Pat a Capybara</p>
       </div>
       <div className="first">

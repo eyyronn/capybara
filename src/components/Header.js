@@ -2,7 +2,6 @@ import React from 'react';
 import './Header.css';
 import './Content.js';
 
-
 function Header() {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -22,6 +21,12 @@ function Header() {
         <button onClick={() => scrollToSection('petsSection')}>Pets?</button>
         <button onClick={() => scrollToSection('BigSection')}>Big?</button>
         <button onClick={() => scrollToSection('PhilSection')}>In the Philippines?</button>
+      </div>
+      <div className="pat">
+        <button className="pat-button" onClick={() => scrollToSection('patSection')}>
+          Pat a Capybara!
+        </button>
+        <div class="peeking-capybara"></div>
       </div>
     </div>
   );
