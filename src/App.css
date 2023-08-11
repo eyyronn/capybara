@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lexend', serif;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffd900;
+}
+
+.animation-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.prompt {
+  font-size: larger;
+  margin-top: 60px;
+  margin-bottom: -8px;
+  color:#ffd900;
+  font-weight: 600;
+  font-size: x-large;
+  background-color: rgb(54, 134, 0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+

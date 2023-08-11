@@ -1,0 +1,24 @@
+.section {
+    display: block;
+    max-width: 50vmax; 
+    margin: 0 auto; 
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.section p {
+    text-align: justify;
+    margin: 10px 0; 
+}
+
+h2, p {
+    margin: 0 20px 10px; 
+}
+
+.section span {
+    color: rgb(54, 134, 0);
+}
