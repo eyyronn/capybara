@@ -18,7 +18,7 @@ function Header() {
         <button onClick={() => scrollToSection('friendlySection')}>Friendly?</button>
         <button onClick={() => scrollToSection('dangerousSection')}>Dangerous?</button>
         <button onClick={() => scrollToSection('endangeredSection')}>Endangered?</button>
-        <button onClick={() => scrollToSection('petsSection')}>Pets?</button>
+        <button onClick={() => scrollToSection('PetsSection')}>Pets?</button>
         <button onClick={() => scrollToSection('BigSection')}>Big?</button>
         <button onClick={() => scrollToSection('PhilSection')}>In the Philippines?</button>
       </div>

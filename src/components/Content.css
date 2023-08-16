@@ -2,6 +2,7 @@
     display: block;
     max-width: 50vmax; 
     margin: 0 auto; 
+    margin-bottom: 30px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-align: center;
